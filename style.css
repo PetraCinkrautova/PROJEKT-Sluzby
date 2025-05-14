@@ -1,0 +1,164 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+}
+
+.sluzby {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 0.5px solid #8B8B8B;
+    background-color: #FAFAFA;
+   
+}
+
+.sluzby hr {
+    width: 60px;
+    border: 2px solid #407BFF;
+
+}
+
+.sluzby img {
+    margin-top: 35px;
+}
+
+.uvod {
+text-align: center;}
+
+.uvod h1 {
+    margin: 40px 0px 10px 0px;
+    font-size: 28px;
+}
+
+.uvod p {
+    margin: 30px 20px 30px 20px;
+    font-size: 16px;
+}
+
+.tlacitka {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+   
+}
+
+.dobrodruzstvi { 
+    padding: 10px 30px 10px 30px;
+    background-color: #407BFF;
+    border-radius: 20px;
+    width: 195px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+
+.pohoda {
+    padding: 10px 30px 10px 30px;
+    background-color: #8B8B8B;
+    border-radius: 20px;
+    width: 220px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.nabidkasluzeb {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.nabidkasluzeb h2 {
+    font-size: 16px;
+   
+
+}
+
+.nabidkasluzeb p {
+    font-size: 16px;
+    color: #8B8B8B;
+    padding: 0px 20px;
+    margin-bottom: 28px;
+}
+
+.bod1,
+.bod2,
+.bod3 {display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px 20px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    padding: 20px;
+    align-items: center;
+      
+
+}
+
+.bod1 p,
+.bod2 p,
+.bod3 p {
+    font-size: 13px;
+    margin: 0;
+} 
+
+.bod1 img,
+.bod2 img,
+.bod3 img {
+    max-width: 45px;
+    margin-top: 0;
+}
+
+.nabidkadelegatu {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.nabidkadelegatu h2 {
+       font-size: 16px;
+}
+
+.nabidkadelegatu p {
+    font-size: 16px;
+    color: #8B8B8B;
+    padding: 0px 20px;
+    margin-bottom: 28px;
+}
+
+
+.bod4,
+.bod5,
+.bod6 {display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px 20px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    padding: 20px;
+    align-items: center;
+      
+
+}
+
+
+.bod4 p,
+.bod5 p,
+.bod6 p {
+    font-size: 13px;
+    margin: 0;
+} 
+
+.bod4 img,
+.bod5 img,
+.bod6 img {
+    max-width: 45px;
+    margin-top: 0;
+}
+
+.bod6 {
+    margin-bottom: 60px;
+}
