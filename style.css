@@ -344,8 +344,9 @@ text-align: center;
 @media screen and (min-width:1100px) {
 
     .sluzby {
-        max-width: 4000px;
-        margin: 0;
+        max-width: 1040px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .uvod {display: flex;
@@ -373,10 +374,11 @@ text-align: center;
         order: 1;
         flex: 1 1 50%;
         text-align: left;
-        margin-left: 80px;
+       
         display: flex;
         flex-direction: column;
         justify-content: center;
+     
         
     }
 
@@ -384,12 +386,92 @@ text-align: center;
         margin-left: 0px;
     }
 
+    .popis1 p {
+    margin-right: 30px;
+    }
+
     .tlacitka {
         justify-content: flex-start;
     }
 
 
-
-
-
+    .dobrodruzstvi { 
+       
+        text-align: center;
 }
+
+    .pohoda {
+           
+              text-align: center;
+    }
+
+    .nabidkasluzeb {
+        display: flex;
+        margin-top: 80px;
+    }
+
+    .text1 {
+        order: 2;
+        flex: 1 0 calc(50%-30px);
+      
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .text1 h2,
+    .text1 p  {
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .vycet1 {
+        order: 1;
+        flex: 1 0 calc(50%+30px);
+        margin: 0;
+        max-width: 550px;
+       
+    }
+
+    .nabidkadelegatu {
+        display: flex;
+        margin-top: 80px;
+
+    }
+
+    .text2 {
+        order: 1;
+        flex: 1 1 calc(50%-30px);
+        margin-right: 60px;
+        text-align: left;
+        
+    }
+
+    
+    .text2 h2,
+    .text2 p  {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .vycet2 {
+        order: 2;
+        flex: 1 1 calc(50%+30px);
+        margin: 0;
+        max-width: 550px;
+        
+        
+        
+    }
+
+
+    .bod2,
+    .bod3,
+    .bod5,
+    .bod6 {
+        margin-left: 20px;
+    }
+
+  
+
+    }
