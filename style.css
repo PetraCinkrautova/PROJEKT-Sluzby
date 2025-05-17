@@ -367,7 +367,7 @@ text-align: center;
     }
 
      .obrazek img {
-        max-width: 425px;
+        width: 425px;
      }
 
     .popis1 {
